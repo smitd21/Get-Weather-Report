@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname+"/wreport.html");   //__dirname is used for entire path of file
+  res.sendFile(__dirname+"/index.html");   //__dirname is used for entire path of file
 });
 
 
